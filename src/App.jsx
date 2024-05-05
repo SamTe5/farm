@@ -8,6 +8,7 @@ import Form from './Pages/Form/Form';
 import Profile from './Pages/Profile/Profile';
 import Machine from "./Pages/Machine/Machine"
 import Akis from "./Component/BottomAkis/Akis"
+import { useHistory } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
         <Route  path="/Form" element={<Form/>}/>
         <Route  path="/Profile" element={<Profile/>}/>
         <Route  path="/Machine" element={<Machine/>}/>
+        
       </Routes>
       <Akis/>
+      
     </div>
 
 
