@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loaderBox{
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.loader::before , .loader::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  width: 48em;
+  height: 48em;
+  background-image:
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0),
+    radial-gradient(circle 10px, #19dc4d 100%, transparent 0);
+  background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em,
+                       13em -13em, -13em -13em, 13em 13em, -13em 13em;
+    background-repeat: no-repeat;
+  font-size: 0.5px;
+  border-radius: 50%;
+  animation: blast 1s ease-in infinite;
+}
+.loader::after {
+  font-size: 1px;
+  background: #19dc4d;
+  animation: bounce 1s ease-in infinite;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes bounce {
+  0% , 100%{ font-size: 0.75px }
+  50% { font-size: 1.5px }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes blast {
+  0% , 40% {
+    font-size: 0.5px;
   }
-  to {
-    transform: rotate(360deg);
+  70% {
+    opacity: 1;
+    font-size: 4px;
+  }
+   100% {
+     font-size: 6px;
+    opacity: 0;
   }
 }
