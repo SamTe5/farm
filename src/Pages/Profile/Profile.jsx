@@ -14,7 +14,7 @@ function Profile() {
   
   return (
     <div >
-      <Row  className='justify-content-center'>
+      <Row  className='justify-content-center m-0'>
         <Col xs={4} className='text-center pt-5'>
           <div>
             <img src={ProfileImg} alt="Profil Resmi" />

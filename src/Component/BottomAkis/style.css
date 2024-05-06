@@ -1,5 +1,11 @@
 .bottomBox{
+    
+}
 
+img{
+    max-width: 100%;
+    width: 40px;
+    padding-top: 10%;
 }
 
 .bottomGeneral{
@@ -9,4 +15,7 @@
     bottom: 0;
     right: 0;
     width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255,.5);
+    
 }

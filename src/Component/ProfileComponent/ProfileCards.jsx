@@ -21,6 +21,7 @@ function ProfileCards({ profileImgs }) {
                             width: '100%',
                             height: '200px', // Adjust the height as needed
                             borderRadius: '8px', // Optional: Add border radius
+                            padding:0,
                         }} />
                        
                     </Card>
