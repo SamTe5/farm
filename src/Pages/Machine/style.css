@@ -56,3 +56,6 @@ div.fg {
     margin-top: 20px;
 }
 
+.ilacBox{
+    display: flex;
+}

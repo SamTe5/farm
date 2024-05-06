@@ -4,6 +4,8 @@ import Tabs from 'react-bootstrap/Tabs';
 import Accordion from 'react-bootstrap/Accordion';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import "./style.css";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Machine() {
   return (
@@ -11,7 +13,7 @@ function Machine() {
       <div><p>Sahip Olunan Ürünler</p></div>
       <div>
         <Tabs
-          defaultActiveKey="profile"
+          defaultActiveKey="home"
           id="justify-tab-example"
           className="mb-3"
           justify
@@ -48,7 +50,7 @@ function Machine() {
                     </div>
                   </div>
 
-                  
+
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -79,16 +81,47 @@ function Machine() {
           justify
         >
           <Tab eventKey="home" title="Önleyici">
-            Tab content for Home
+            <Row className='ilacBox'>
+              <Col xs={3}><p className='ps-2'>Aborrdoun:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={45} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Adsen:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={95} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Aolsas:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={35} className='mt-2' /></Col>
+
+            </Row>
           </Tab>
           <Tab eventKey="profile" title="Azaltıcı">
-            Tab content for Profile
+            <Row className='ilacBox'>
+              <Col xs={3}><p className='ps-2'>Samdoun:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={75} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Adsen:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={95} className='mt-2' /></Col>
+              
+
+            </Row>
           </Tab>
           <Tab eventKey="longer-tab" title="Yok Edici">
-            Tab content for Loooonger Tab
+            <Row className='ilacBox'>
+              <Col xs={3}><p className='ps-2'>Posusa:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={45} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Almousa:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={55} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Aolsas:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={35} className='mt-2' /></Col>
+
+            </Row>
           </Tab>
           <Tab eventKey="contact" title="Uzaklaştıcı">
-            Tab content for Contact
+            <Row className='ilacBox'>
+              <Col xs={3}><p className='ps-2'>Aborrdoun:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={45} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Adsen:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={95} className='mt-2' /></Col>
+              <Col xs={3}><p className='ps-2'>Aolsas:</p></Col>
+              <Col xs={9}> <ProgressBar animated now={35} className='mt-2' /></Col>
+
+            </Row>
           </Tab>
         </Tabs>
       </div>
