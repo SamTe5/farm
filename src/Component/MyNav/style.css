@@ -1,0 +1,7 @@
+.logo{
+    display: flex;
+}
+
+.logo p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
