@@ -114,25 +114,13 @@ function Form() {
           <Accordion.Item eventKey="0">
             <Accordion.Header>ELMA</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              Elma ağacının bu derecede yayılımı kısmen bu ağacın yüksek derecede dayanıklı olmasından kaynaklanmıştır. -30 ° C’nin altında bile meyve verebilir. Günümüzde elma ağaçları, Kanada’nın soğuklarından Afrika’nın tropik iklimine kadar çeşitli iklim koşullarında yetiştirilmektedir. Sonuç olarak, elma ağaçlarının gelişimi için ağaçların her zaman optimum koşullara ihtiyacı yoktur. Elma ağaçları, yerel koşullara uyum sağlaması ile popülerdirler ve elma çeşidinin seçimi rasyonel bir şekilde yapılması şartıyla, zorluklara rağmen meyve verir. Dünya elma üretiminin yaklaşık olarak yarısı Çin’e aittir, ancak elma ağaçları Avustralya, Kuzey ve Güney Amerika, Kuzey Afrika ve Japonya’da üretilmektedir. Amerika Birleşik Devletleri’nde, elma ağaçları ticari olarak çoğunlukla Washington, New York, Michigan, Pennsylvania, Virginia, Kaliforniya, Kuzey Carolina, Oregon, Ohio ve Idaho’da yetiştirilir.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
             <Accordion.Header>KİRAZ</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              Kiraz ağaçları, genellikle 10-15 metre yüksekliğe ulaşabilen, meyve veren bir ağaç türüdür. Kiraz ağacının yaprakları genellikle parlak yeşil, sivri uçlu ve kenarları hafif dişlidir. Kiraz ağaçlarının çiçekleri beyaz veya hafif pembe renkte olup genellikle ilkbaharda açar.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
